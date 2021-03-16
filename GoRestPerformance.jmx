@@ -20,7 +20,7 @@
           </elementProp>
           <elementProp name="token" elementType="Argument">
             <stringProp name="Argument.name">token</stringProp>
-            <stringProp name="Argument.value">Bearer </stringProp>
+            <stringProp name="Argument.value">${__P(token)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="CONFIG_PATH" elementType="Argument">
